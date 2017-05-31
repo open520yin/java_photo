@@ -96,7 +96,7 @@ public class Show extends Activity {
         SimpleAdapter adapter = new ImageSimpleAdapter(this, list, R.layout.itme,new String[]{"name","img_num","image"}, new int[]{ R.id.textView1,R.id.path,R.id.ico_list});
 
 
-        //实现列表的显示
+        //实现列表的显示 
         gridView.setAdapter(adapter);
 
 //
