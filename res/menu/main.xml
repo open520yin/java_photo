@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.erwe2.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings">
+        <menu>
+            <item android:id="@+id/item1" android:title="tw"/>
+            <item android:id="@+id/item2" android:title="sa2222rt"/>
+            <item android:id="@+id/item3" android:title="we"/>
+        </menu>
+    </item>
+
+</menu>

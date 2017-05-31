@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#CDC9C9"
+              android:gravity="center"
+             android:orientation="vertical" android:id="@+id/item">
+
+    <ImageView
+            android:id="@+id/ico_list"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+
+            android:src="@drawable/ic_launcher" />
+    <TextView
+            android:id="@+id/path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="TextView" />
+
+
+</LinearLayout>
