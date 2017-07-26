@@ -1,0 +1,34 @@
+    {  
+      "name": "open520yin/java_photo",  
+      "description": "open520yin test",  
+      "keywords": [  
+        "open520yin",  
+        "java_photo"  
+      ],  
+      "homepage": "https://github.com/open520yin/java_photo",  
+      "type": "yii2-extension",  
+      "license": "MIT",  
+      "support": {  
+        "source": "https://github.com/open520yin/java_photo"  
+      },  
+      "authors": [  
+        {  
+          "name": "terry water",  
+          "email": "zqy234@126.com"  
+        }  
+      ],  
+      "minimum-stability": "stable",  
+      "require": {  
+        
+        "open520yin/java_photo": "dev-master"  
+         
+      },  
+      "autoload": {  
+        "psr-4": {  
+          "terry\\": ""  
+        }  
+      },  
+      "config": {  
+        "process-timeout": 1800  
+      }  
+    }  
